@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 20px 0; /* Add some space around the image */
+}
+
+.image-container img {
+    max-width: 200px; /* Keep the Python logo responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.logo-container {
+    display: flex; /* Use flexbox to arrange logos in a row */
+    justify-content: center; /* Center the logos horizontally */
+    align-items: center; /* Align logos vertically */
+    margin: 20px 0; /* Space above and below the logos */
+}
+
+.logo {
+    max-width: 200px; /* Set maximum width for all logos to match the Python logo */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Add space between logos */
+}
+
+/* About Me Section */
+.about-me {
+    max-width: 800px; /* Limit the maximum width of the text area */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 20px; /* Add padding for spacing */
+    line-height: 1.6; /* Improve readability */
+}
+
+.about-me h2 {
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+.about-me p {
+    margin: 10px 0; /* Space above and below each paragraph */
+    text-align: justify; /* Justify the text for a uniform appearance */
+}
+
+/* Projects List */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+li {
+    margin-bottom: 20px; /* Add space between each project item */
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Add spacing between the logos for consistency */
+.logo-container + .logo-container {
+    margin-top: 10px; /* Space between rows of logos */
+}

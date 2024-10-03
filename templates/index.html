@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Portfolio - Home</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/projects">Projects</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Hi, I'm Alex</h2>
+        <p>I'm an aspiring developer with a passion for building web applications.</p>
+        
+        <!-- Add your image here -->
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/django_logo.png') }}" alt="Django Logo" class="logo">
+            <img src="{{ url_for('static', filename='images/Python_logo.png') }}" alt="Python Logo" class="logo">
+            <img src="{{ url_for('static', filename='images/flask_logo.png') }}" alt="Flask Logo" class="logo">
+        </div>
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/HTML_CSS_JS_logos.png') }}" alt="HTML Logo" class="logo">
+        </div>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Alex King</p>
+    </footer>
+</body>
+</html>
