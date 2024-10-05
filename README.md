@@ -32,3 +32,14 @@ To get a local copy of this project up and running, follow these steps.
    in terminal:
    git clone https://github.com/Alex-King-1998/FlaskPortfolio.git
    cd FlaskPortfolio
+
+2. **Create a virtual environment:**
+python3 -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+3. **Install dependencies:**
+pip install -r requirements.txt
+
+Run the application:
+flask run
+The site should now be running on http://127.0.0.1:5000/.
